@@ -23,6 +23,23 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
+      .product-title {
+        text-align:center;
+        display:table;
+        border:1px solid #cecece;
+        width:280px;
+        height:250px;
+      }
+
+    .product-img-div {
+        display:table-cell;
+        vertical-align:middle;
+    }
+
+    .product-img {
+        max-width:180px;
+        max-height:180px;
+    }
 
     </style>
 </head>
@@ -43,6 +60,7 @@
                 <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
+                <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
                 <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
                 <li class="nav-item"><a href="#certificate-section" class="nav-link"><span>Certificate</span></a></li>
                 <li class="nav-item"><a href="#experience-section" class="nav-link"><span>Experience</span></a></li>
@@ -102,9 +120,6 @@
                 </div>
                 <div class="counter-wrap ftco-animate d-flex mt-md-3">
                     <div class="text">
-                        <p><a target="_blank"
-                              href="https://drive.google.com/file/d/1hlXX2n15rPwT8s6vseOf9uBwid22ugWq/view"
-                              class="btn btn-primary py-3 px-3">이력서 다운받기</a></p>
                     </div>
                 </div>
             </div>
@@ -125,9 +140,9 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-md-9" id="education-section">
+            <div class="col-md-9">
                 <div id="page-1" class="page one">
-                    <h2 class="heading">Education</h2>
+                    <h2 class="heading" id="education-section">Education</h2>
                     <div class="resume-wrap d-flex ftco-animate">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="flaticon-ideas"></span>
@@ -141,7 +156,7 @@
                     </div>
                 </div>
                 <div id="page-2" class="page two">
-                    <h2 class="heading">Skills</h2>
+                    <h2 class="heading" id="skills-section">Skills</h2>
                     <div class="row">
                         <div class="col-md-6 animate-box">
                             <div class="progress-wrap ftco-animate">
@@ -149,7 +164,7 @@
                                 <div class="progress">
                                     <div class="progress-bar color-1" role="progressbar" aria-valuenow="65"
                                          aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                                        <span>60%</span>
+                                        <span>65%</span>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +178,7 @@
                                 <div class="progress">
                                     <div class="progress-bar color-2" role="progressbar" aria-valuenow="35"
                                          aria-valuemin="0" aria-valuemax="100" style="width:35%">
-                                        <span>30%</span>
+                                        <span>35%</span>
                                     </div>
                                 </div>
                             </div>
@@ -176,9 +191,9 @@
                             <div class="progress-wrap ftco-animate">
                                 <h3>HTML5 & CSS3</h3>
                                 <div class="progress">
-                                    <div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-                                         aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                                        <span>95%</span>
+                                    <div class="progress-bar color-3" role="progressbar" aria-valuenow="50"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                        <span>50%</span>
                                     </div>
                                 </div>
                             </div>
@@ -190,9 +205,9 @@
                             <div class="progress-wrap ftco-animate">
                                 <h3>Java Script</h3>
                                 <div class="progress">
-                                    <div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-                                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                        <span>90%</span>
+                                    <div class="progress-bar color-4" role="progressbar" aria-valuenow="40"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                        <span>40%</span>
                                     </div>
                                 </div>
                             </div>
@@ -203,9 +218,9 @@
                             <div class="progress-wrap ftco-animate">
                                 <h3>RDMBS</h3>
                                 <div class="progress">
-                                    <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-                                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                        <span>70%</span>
+                                    <div class="progress-bar color-5" role="progressbar" aria-valuenow="60"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                        <span>60%</span>
                                     </div>
                                 </div>
                             </div>
@@ -215,25 +230,25 @@
                         </div>
                         <div class="col-md-6 animate-box">
                             <div class="progress-wrap ftco-animate">
-                                <h3>Mybatis / JPA(Hibernate)</h3>
+                                <h3>Mybatis / JPA</h3>
                                 <div class="progress">
-                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-                                         aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                        <span>80%</span>
+                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                        <span>50%</span>
                                     </div>
                                 </div>
                             </div>
                             <p>SQL Mapper와 ORM 기술 둘 다 사용해 보면서 DB와 프로그래밍 언어 사이의 데이터통신을 익혔습니다. 두 기술의 장단점을 직접 체감해 보면서 기본적인
-                                CRUD와 동적쿼리를 익혔습니다.</p>
+                                CRUD와 JOIN문, 서브쿼리와 동적쿼리 등을 적용 해 봤습니다. </p>
                         </div>
 
                         <div class="col-md-6 animate-box">
                             <div class="progress-wrap ftco-animate">
                                 <h3>Git</h3>
                                 <div class="progress">
-                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-                                         aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                        <span>80%</span>
+                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="40"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                        <span>40%</span>
                                     </div>
                                 </div>
                             </div>
@@ -244,9 +259,9 @@
                             <div class="progress-wrap ftco-animate">
                                 <h3>EC2</h3>
                                 <div class="progress">
-                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-                                         aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                        <span>80%</span>
+                                    <div class="progress-bar color-6" role="progressbar" aria-valuenow="30"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                        <span>30%</span>
                                     </div>
                                 </div>
                             </div>
@@ -263,15 +278,32 @@
                         </div>
                         <div class="text pl-3">
                             <div class="d-flex">
-                                <h2>온라인 경매사이트</h2>
                             </div>
                             <span class="position">DDIT Auction</span>
-                            <div><b class="text-dark">기술 스택 : </b>React, Typescript, Next.js, Styled-Component,
+                            <div><b class="text-dark">기술 스택 : </b>Java, JSP, Next.js, Styled-Component,
                                 MobX
                             </div>
                             <div><b class="text-dark">주요 기능 : </b> 물품 등록, 온라인 경매, 실시간 경매, 포인트 예치를 통한 결제
                             </div>
-                            <p> 본문~~~ </p>
+                            <h2>담당 기능</h2> <a class="btn btn-outline-secondary" target="_blank" href="middleProject.html">스크린샷</a>
+                            <p>물품 등록, 수정, 삭제 / 초기 페이지 등록 물품 뷰 화면 / 경매물품 상세, 카테고리 정렬, 검색 등 </p>
+                        </div>
+                    </div>
+                        <div class="resume-wrap d-flex ftco-animate">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="flaticon-ideas"></span>
+                            </div>
+                        <div class="text pl-3">
+                            <div class="d-flex">
+                            </div>
+                            <span class="position">DDIT LMS</span>
+                            <div><b class="text-dark">기술 스택 : </b>Java, JSP, Next.js, Styled-Component,
+                                MobX
+                            </div>
+                            <div><b class="text-dark">주요 기능 : </b>교과편성 / 강의등록 / 수강신청 / 온라인 강의 등 대학교학사관리(LMS)<div>전자결재, 클라우드서비스, 이메일서비스, 일정관리 등</div>
+                            </div>
+                            <h2>담당 기능</h2> <a class="btn btn-outline-secondary" target="_blank" href="finalProject.html">스크린샷</a>
+                            <p>AWS EC2를 사용한 이메일 서버 환경설정 및 구축, 이메일 클라이언트(메일 송수신, 파일첨부 등), 전자결재</p>
                         </div>
                     </div>
                 </div>
@@ -281,9 +313,35 @@
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="flaticon-ideas"></span>
                         </div>
+                        <div class="text pl-3">
+                            <div class="text pl-3">
+                                <span class="date">2013.11.15</span>
+                                <h2>정보처리기사</h2>
+                                <div>
+                                    <div>컴퓨터에 대한 전반적인 이론, DB, OS, 통신과 알고리즘 등</div>
+                                    <div>전반적인 컴퓨터에 대한 기본적인 내용을 습득</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-wrap d-flex ftco-animate">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="flaticon-ideas"></span>
+                        </div>
+                        <div class="text pl-3">
+                            <div class="text pl-3">
+                                <span class="date">2021.10.01</span>
+                                <h2>SQLD</h2>
+                                <div>
+                                    <div>OracleDB를 기본으로 한 관계형데이터베이스에 대한 이론과</div>
+                                    <div>기본적인 SQL인 CRUD와, JOIN, 계층형, 통계성 쿼리 등을 습득</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="page-5" class="page four">
+                <br/><br/><br/>
+                <div id="page-5" class="page five">
                     <h2 id="experience-section" class="heading">Work Experience</h2>
                     <div class="resume-wrap d-flex ftco-animate">
                         <div class="icon d-flex align-items-center justify-content-center">
@@ -306,19 +364,6 @@
         </div>
     </div>
 </section>
-<section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-7 ftco-animate text-center">
-                <h2>함께할 <span>회사를 찾는 중</span> 입니다.</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">연락주세요.</a></p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
